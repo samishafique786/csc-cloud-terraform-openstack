@@ -13,7 +13,7 @@ The infrastructure consists of a set of interconnected virtual resources managed
 - **Router:** A router to connect the private subnet to the external network, allowing outbound internet access and inbound access to one VM.
 - **Floating IP:** A floating IP associated with the public VM to enable direct internet connectivity.
 
-Usage:
+## Usage:
 
 The project sets up the following resources:
 
