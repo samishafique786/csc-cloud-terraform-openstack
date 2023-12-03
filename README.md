@@ -13,7 +13,7 @@ The infrastructure consists of a set of interconnected virtual resources managed
 - **Router:** A router to connect the private subnet to the external network, allowing outbound internet access and inbound access to one VM.
 - **Floating IP:** A floating IP associated with the public VM to enable direct internet connectivity.
 
-![Architecture Diagram](https://drive.google.com/file/d/1pzy8QsrZMin64P_PN253hpSirfJQ7bp1/view?usp=sharing)
+![Architecture Diagram](https://drive.google.com/file/d/185hCLc-aZQplh7KDERQO5nxb8X6NHxzr/view?usp=sharing)
 *Architecture diagram showing the OpenStack environment setup.*
 
 ## Prerequisites
