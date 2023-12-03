@@ -17,21 +17,24 @@ The infrastructure consists of a set of interconnected virtual resources managed
 
 The project sets up the following resources:
 
-VM1:
+**VM1:**
 
 Connected to both public_sg and private_sg security groups.
 Has a floating IP for internet access.
 Open ports: 22 (SSH) and 80 (HTTP).
-VMs 2-4:
+
+**VMs 2-4:**
 
 Connected to private_sg security group.
 No public internet access; only communicate within the private network.
 Open ports: All ports are open within the private network (192.168.1.0/24).
-Security Groups:
+
+**Security Groups:**
 
 public_sg allows SSH and HTTP traffic from any IP address.
 private_sg allows all traffic within the private network.
-Router and Subnet:
+
+**Router and Subnet:**
 
 The router connects the private network to the external network.
 The subnet provides IP addresses to the VMs.
